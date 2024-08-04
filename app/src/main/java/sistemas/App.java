@@ -149,7 +149,7 @@ public class App {
         try {
             // Lógica interna
             if((porcentaje1 + porcentaje2 + porcentaje3 + porcentaje4 + porcentaje5) == 1){
-                return (int) (nota1 * porcentaje1 + nota2 * porcentaje2 + nota3 * porcentaje3 + nota3 * porcentaje3 + nota4 * porcentaje4 + nota5 * porcentaje5) / 5;
+                return (int) (((nota1*porcentaje1) + (nota2*porcentaje2) + (nota3*porcentaje3) + (nota3*porcentaje3) + (nota4*porcentaje4) + (nota5*porcentaje5)) / 5);
             }
             else{
                 return -1;
